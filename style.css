@@ -1,0 +1,52 @@
+body {
+  background-color:#e6f9ff;
+  color:green;
+  font-size: 20px;
+}
+
+input:required {
+    background:hsl(0, 0%, 95%);
+    border:1px solid #999;
+}
+
+.container {
+    width: 1990px;
+    background-color:#e6f9ff;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
+    text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+    color: green;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+  background-color: green;
+ }
+
+.form-signin .form-signin-heading
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+ }
+
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+      padding: 10px;
+  font-size: 16px;
+  margin-bottom:10px;
+ }
+
+.form-signin .form-control:focus {
+background-color: #e6f2ff;
+  z-index: 2;
+}
+
